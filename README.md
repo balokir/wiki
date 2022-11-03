@@ -1,3 +1,3 @@
 # wiki
 
-## [Avandoc] (avandoc.md)
+## [Avandoc] (https://github.com/balokir/wiki/blob/main/avandoc.md)
