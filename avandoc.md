@@ -8,6 +8,6 @@
 Сменить пароль пользователю
 ```
 update dm_user object
-set user_password = 'Kirill12345'
+set user_password = '***'
 where user_name = 'balokir1'
 ```
