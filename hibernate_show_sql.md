@@ -56,7 +56,7 @@ Works perfectly, but logs all JDBC queries, including liquidbase which decrease 
 
 ## Troubleshooting
 
-I spent several hours to understand why `org.hibernate` does not work. 
+I spent several hours to understand why logger `org.hibernate` does not work. 
 When I was debugging BasicBinder, I saw that the logger was set to ERROR level regardless of the settings.
 
 The solution was found here https://stackoverflow.com/a/19488546/3864309, but not exactly as suggested.
