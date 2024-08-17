@@ -10,10 +10,10 @@ plugins {
 
 publishing {
     publications {
-        create<MavenPublication>("maven") {
-            groupId = rootProject.group.toString()
+        create<MavenPublication>("mavenJava") {
+            groupId = rootProject.group  as String
             artifactId = project.name
-            version = project.version.toString()
+            version = project.version as String
             from(components["java"])
         }
     }
@@ -24,8 +24,8 @@ tasks {
         duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 
         into("META-INF/maven/${rootProject.group}/${project.name}") {
-            val generatePomFileForMavenPublication by tasks.getting(GenerateMavenPom::class)
-            from(generatePomFileForMavenPublication) {
+            val generatePomFileForMavenJavaPublication by tasks.getting(GenerateMavenPom::class)
+            from(generatePomFileForMavenJavaPublication) {
                 rename(".*", "pom.xml")
             }
 
