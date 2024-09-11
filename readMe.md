@@ -6,6 +6,7 @@ A small [example](https://github.com/balokir/postgresql_docker) of deploying Pos
 
 [Hibernate and Spring Boot - show sql with parameters.](hibernate_show_sql.md)
 [How to include pom file in the jar in Kotlin DSL](gradle_add_pom_to_jar.md)
+[How to use plugin definition from `libs.versions.toml`](plugin_ref_from_lib.md)
 
 A set of source code [examples](https://github.com/balokir/examples)
 * [Simple gRPC bidirectional streaming with client recovery and server side notification about client connecting/disconnecting](https://github.com/balokir/examples/tree/main/grpc-simple-streaming)

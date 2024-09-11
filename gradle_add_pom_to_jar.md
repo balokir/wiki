@@ -1,4 +1,4 @@
-#How to include pom file in the jar in Kotlin DSL
+# How to include pom file in the jar in Kotlin DSL
 
 `build.gradle.kts`
 ````kotlin
