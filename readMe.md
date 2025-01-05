@@ -10,4 +10,5 @@ A small [example](https://github.com/balokir/postgresql_docker) of deploying Pos
 [How to include pom file in the jar in Kotlin DSL](gradle_add_pom_to_jar.md)
 [How to use plugin definition from `libs.versions.toml`](plugin_ref_from_lib.md)
 [Aggregate JUnit reports for multi-projects setup](aggregate_junit_reports.md)
-
+[Aggregate JUnit reports for multi-projects setup](aggregate_junit_reports.md)
+[Correct git-versioning usage example](git_versioning_example.md)
